@@ -6,10 +6,11 @@ from agents.github_agent import fetch_github_projects
 from agents.docker_agent import fetch_docker_repos
 
 
-# Groq LLM Setup
+import os
+
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
-    api_key="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",
+    api_key=os.getenv('GROQ_API_KEY'),  # ✅ Secure loading
     temperature=0.0,
     max_retries=2
 )

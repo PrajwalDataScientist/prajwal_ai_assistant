@@ -1,6 +1,7 @@
-requests
+streamlit
+python-dotenv
 langchain
 langchain_core
 langchain_community
-streamlit
-python-dotenv
+langchain_groq
+requests

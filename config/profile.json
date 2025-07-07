@@ -1,0 +1,91 @@
+{
+  "name": "Prajwal B",
+  "email": "prajwalint1027@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/prajwal10da/",
+  "github": "https://github.com/PrajwalDataAnalyst",
+  "dockerhub": "https://hub.docker.com/repositories/prajwal1027",
+  "location": "Bangalore - The Silicon Valley of India, where innovation meets opportunity.",
+  
+"about": "Prajwal B is a dynamic Data Scientist, Data Analyst, and Power BI Developer with a strong passion for learning and mastering new technologies. He is known for his curiosity, problem-solving mindset, and eagerness to continuously grow in the fields of data science, machine learning, data visualization, and AI. Prajwal holds a Bachelor of Computer Applications (BCA) and has successfully completed professional training in Data Analysis and Machine Learning. His expertise spans: 📊 Data Analytics & Visualization: Skilled in Python, Pandas, NumPy, Power BI, Excel, and SQL for delivering data-driven solutions. 🤖 Machine Learning & AI: Hands-on experience in building intelligent models and developing personal AI chatbots. 🐳 Docker & GitHub: Efficient in containerization and project management for streamlined deployments. 🌐 Networking & API Integration: Basic understanding of API communication, protocols, and security concepts, currently building practical experience. 💡 Problem Solver: Highly adaptable and driven to explore new tools, frameworks, and emerging technologies. Prajwal is not just a developer — he is a lifelong learner who is always ready to embrace new challenges and contribute meaningfully to every project.",
+  "education": [
+    {
+      "level": "Schooling",
+      "institution": "J.M Imam School",
+      "location": "Jagalur, Davangere District",
+      "passout_year": "2018"
+    },
+    {
+      "level": "PUC (1st & 2nd)",
+      "institution": "Don Bosco PU College",
+      "location": "Chitradurga",
+      "passout_year": "2020"
+    },
+    {
+      "level": "Bachelor of Computer Applications (BCA)",
+      "institution": "Don Bosco Degree College",
+      "university": "Davangere University",
+      "cgpa": "8.7",
+      "passout_year": "2023",
+      "activities": [
+        "Winner of university-level drama competition for 'Dhanvantri Chikitse'",
+        "Received 'Best Outgoing Student' award for exceptional contributions",
+        "Successfully developed and deployed a Blood Donation Website as a final-year project, which helped arrange blood for over 50+ people."
+      ]
+    }
+  ],
+
+  "trainings": [
+    {
+      "training": "Data Analysis with Machine Learning",
+      "institution": "Besant Technologies, BTM Layout, Bangalore",
+      "duration": "December 2023 - August 2024",
+      "description": "Completed 7-months of hands-on training in Python, data analytics, machine learning, and visualization. Secured the certificate while also managing a full-time job."
+    }
+  ],
+
+  "skills": {
+    "technical_skills": [
+      "Python - Strong scripting and analytical skills",
+      "Pandas, NumPy, Matplotlib, Seaborn - Data analysis and visualization",
+      "Excel - Dashboarding, advanced formulas, and data cleaning",
+      "Power BI - Creating interactive dashboards and connecting multiple data sources",
+      "SQL - Writing complex queries and handling relational databases",
+      "Docker - Containerization of applications",
+      "Git/GitHub - Version control and project management",
+      "Linux - Hands-on with basic commands and networking",
+      "Networking & API Communication - Good understanding of protocols and API structures",
+      "Machine Learning, NLP, Deep Learning - Building and training models",
+      "Chatbot Development - Experience in creating intelligent assistants"
+    ],
+    "soft_skills": [
+      "Effective Communication",
+      "Problem Solving",
+      "Team Collaboration",
+      "Adaptability"
+    ],
+    "languages_known": [
+      "English",
+      "Kannada",
+      "Telugu"
+    ]
+  },
+
+  "projects": "Projects will be fetched dynamically from GitHub. If README is not available, available repo description will be provided.",
+
+  "experience": [
+  {
+    "company": "Nityo Infotech Services Private Limited (Client: IBM)",
+    "duration": "June 2024 - April 2025",
+    "responsibilities": [
+      "Worked on a project for IBM focused on web application security, API validation, chatbot development, and security testing.",
+      "Gained knowledge and exposure to web penetration testing, API testing, vulnerability analysis, and dynamic scanning of web applications and APIs.",
+      "Ran dynamic scans on web applications and analyzed the identified vulnerabilities.",
+      "Developed and fine-tuned an LLM-based security chatbot using internal datasets to enhance access to security test cases.",
+      "Worked extensively with Linux, networking, and penetration testing tools.",
+      "Collaborated with cross-functional teams to streamline security workflows and improve operational efficiency.",
+      "Hands-on experience with Excel, Power BI, MySQL, Jupyter Notebook, VS Code, Google Colab, and security tools like Burp Suite, OWASP ZAP, and Insomnia."
+    ]
+  }
+]
+
+}

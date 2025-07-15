@@ -1,37 +1,32 @@
 import requests
 from base64 import b64decode
 
-# You can move this to a config file later
-GITHUB_USERNAME = "PrajwalDataAnalyst"
-GITHUB_API_URL = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+GITHUB_USERNAME = "PrajwalDataScientist"
+REPO_NAME = "prajwal_ai_assistant"
 
-def fetch_github_projects():
-    """
-    Fetches all public repositories for the configured GitHub user.
-    """
-    response = requests.get(GITHUB_API_URL)
+def fetch_github_project():
+    url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{REPO_NAME}"
+    response = requests.get(url)
     if response.status_code == 200:
-        repos = response.json()
-        repo_list = []
-        for repo in repos:
-            repo_list.append({
-                "name": repo["name"],
-                "description": repo["description"] or "No description provided.",
-                "url": repo["html_url"]
-            })
-        return repo_list
+        repo = response.json()
+        return {
+            "name": repo["name"],
+            "description": repo["description"] or "No description provided.",
+            "url": repo["html_url"]
+        }
     else:
-        return f"Error fetching repositories: {response.status_code}"
+        return f"Error fetching repository: {response.status_code}"
 
-def fetch_readme(repo_name):
-    """
-    Fetches the README content for a specific repository.
-    """
-    url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{repo_name}/readme"
+def fetch_readme():
+    url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{REPO_NAME}/readme"
     response = requests.get(url)
     if response.status_code == 200:
         readme_content = response.json()["content"]
-        decoded_content = b64decode(readme_content).decode('utf-8')
-        return decoded_content
+        decoded = b64decode(readme_content).decode("utf-8")
+        return decoded
     else:
-        return "README not available for this repository."
+        return f"README not available. Error: {response.status_code}"
+
+# Example usage:
+print(fetch_github_project())
+print(fetch_readme())
